@@ -1,0 +1,188 @@
+@import 'stiles.css';
+@import'anime.css';
+body{
+    background: #02162e;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+.searchIT{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 4px;
+}
+.searchIT input{
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    width: 130px;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #2679d8;
+  }
+.btn{
+    width: 67px;
+    height: 22px;
+    background: #2679d8;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background: #91b3da
+  }
+    
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: aqua;
+
+}
+a:hover, a:active{
+    background-color: aqua;
+    color:black;
+
+}
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+
+}
+.mainHeader h1{
+    width: 100%;
+    height: auto;
+    margin: 2% 0;
+    text-align: center;
+    color: #bfbebc;
+}
+.mainHeader nav{
+    background-color: rgb(17, 18, 19);
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+
+}
+.mainHeader nav ul li{
+    /*float: left; */
+    display: inline;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color:white;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: blu#2679d7;
+    text-shadow: none;
+
+}
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+.mainContent{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    
+}
+.content{
+    width: 70%;
+    float: left;
+    
+}
+.topContent{
+    background-color: #02162e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+.bottomContent{
+    background-color: #02162e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+.top-sidebar{
+    width: 21%;
+    float: left;
+    background-color:#02162e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    margin-left: 2% 0 2% 2%;
+    padding: 2% 3%;
+}
+.middle-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #02162e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    margin-left: 2% 0 2% 2%;
+    padding: 2% 3%;
+}
+.bottom-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #02162e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    margin-left: 2% 0 2% 2%;
+    padding: 2% 3%;
+}
+.post-info{
+    font-style: italic;
+    font-size: 85%;
+    color: green;
+}
+.mainFooter{
+    width: 100%;
+    float: left;
+    background-color: black;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    margin: 2% 0;
+}
+.mainFooter p{
+    width: 92%;
+    margin: 10px auto;
+    color: white;
+}
+@media only screen and (min-width: 150px) and (max-width: 600px){
+    .body{
+        margin: 0 auto;
+        width: 70%;
+        clear: both;
+    
+    }
+}

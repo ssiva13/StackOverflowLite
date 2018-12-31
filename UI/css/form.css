@@ -1,0 +1,10 @@
+.text-center {
+    text-align: center;
+}
+.icon {
+    height: 19px;
+    margin-top: 0px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}

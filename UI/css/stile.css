@@ -1,0 +1,161 @@
+body{
+    background:#02162e;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  .container{
+    width: 50%;
+    height: 90%;
+    background: url(../img/container.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    border-radius: 17px;
+  
+    
+  }
+  
+  /* Login Container*/
+  .containerlogin{
+    width:35%;
+    height:90%;
+    background:url(../img/container.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    border-radius: 17px;
+  }
+  .containerlogin h1{
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #2679d8;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .container h1{
+    font-size: 38px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    color: #2679d8;
+    width: 100%;
+    text-align: center;
+  }
+  .tbox{
+    width: 80%;
+    height: 40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 4px;
+  }
+  .tbox input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #2679d8;
+  }
+  
+  .btn{
+    width: 70%;
+    height: 40px;
+    background: #2679d8;
+    border-radius: 10px;
+    margin: 14px auto;
+    bottom: 120px;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .btn:hover{
+    background: #91b3da
+  }
+  .b1{
+    display: block;
+    width: 65%;
+    padding: 10px 0;
+    bottom: 20px;
+    text-decoration: none;
+    color: #2679d8;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    transition: 0.4s all;
+    border-radius: 10px;
+  }
+  .b2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.4s all;
+    color:#2679d8;
+    border-radius: 10px;
+  }
+  a:hover{
+    background: #000000a4;
+    color:white;
+  }
+  
+  /* make keyframes that tell the start state and the end state of our object */
+  
+  @-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+  
+  .fade-in {
+      opacity:0;  /* make things invisible upon start */
+      -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+      -moz-animation:fadeIn ease-in 1;
+      animation:fadeIn ease-in 1;
+  
+      -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+      -moz-animation-fill-mode:forwards;
+      animation-fill-mode:forwards;
+  
+      -webkit-animation-duration:1s;
+      -moz-animation-duration:1s;
+      animation-duration:1s;
+  }
+  
+  .fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  }
+  
+  .fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+  }
+  
+  .fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+  }
+  
+  
